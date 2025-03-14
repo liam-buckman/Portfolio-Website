@@ -72,7 +72,7 @@ html{
   background-color: blue;
   z-index: 101;
   border-radius: 0.5vw;
-  left: 2vw;
+  left: 4vw;
   top: 1vw;
   position: relative;
   background-image: url('Photos/linkedinbutton.jpg');
@@ -89,7 +89,7 @@ html{
   height: 3vw;
   z-index: 101;
   border-radius: 0.5vw;
-  left: 4vw;
+  left: 2vw;
   font-size: 1.5vw;
   text-shadow: 2px 4px 10px rgba(0, 0, 0, 0.5);
   text-decoration: none;
@@ -107,7 +107,7 @@ html{
   transform: translateY(-30px);
 }
 
-.connectButton {
+/*.connectButton {
   width: 8vw;
   height: 3vw;
   z-index: 101;
@@ -128,6 +128,8 @@ html{
   opacity: 0;
   transform: translateY(-30px);
 }
+  */ 
+
 
 /* Preserve hover effects */
 .linkedinbutton:hover, .resumeButton:hover, .connectButton:hover {
