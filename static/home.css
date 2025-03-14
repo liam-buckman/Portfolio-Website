@@ -29,7 +29,7 @@ html{
   right: 0;
   left: 0;
   height: 100vh;
-  background-image: url('photos/BJA09780.jpg');
+  background-image: url("/static/Photos/BJA09780.jpg");
   background-size: 100%;
   background-attachment: fixed;
   background-position: center center;
@@ -75,7 +75,7 @@ html{
   left: 2vw;
   top: 1vw;
   position: relative;
-  background-image: url('Photos/linkedinbutton.jpg');
+  background-image: url('static/Photos/linkedinbutton.jpg');
   background-position: center;
   background-size: 225%;
   display: inline-block;
@@ -247,7 +247,7 @@ html{
 }
 
 .picture{
-  background-image: url("photos/Liam_Buckman.jpg");
+  background-image: url("static/photos/Liam_Buckman.jpg");
   width: 15vw;
   height:30vh;
   background-size: 100%;
