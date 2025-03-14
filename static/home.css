@@ -193,7 +193,7 @@ html{
 /* Welcome title styling */
 .welcome-title {
   font-family: 'Montserrat', sans-serif;
-  font-size: 4rem;
+  font-size: 5vw;
   font-weight: 700;
   color: white;
   position: absolute;
@@ -251,6 +251,7 @@ html{
   width: 15vw;
   height:30vh;
   background-size: 100%;
+  background-repeat: no-repeat;
   right:7vw;
   top:10vh;
   position: absolute;
