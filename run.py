@@ -8,10 +8,17 @@ app = Flask(__name__,
 def index():
     return render_template('index.html')
 
-@app.route('/about_me')
+@app.route('/About-me')
 def about():
-    return render_template('About_me.html')
+    return render_template('About-me.html')
 
+@app.route('/Experience')
+def experience():
+    return render_template('Experience.html')
+
+@app.route('/Projects')
+def projects():
+    return render_template('Projects.html')
 if __name__ == '__main__':
     app.run(debug=True)
 
