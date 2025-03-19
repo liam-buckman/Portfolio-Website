@@ -17,7 +17,18 @@
 </div>
 <div class ='content-box'>
     <div class="welcome-title"> Welcome</div>
-    <div class="picture"></div>
+    <div class="dropdown">
+      <button> Explore </button>
+      <div class="contents">
+        <a href="Projects">Projects</a>
+        <a href="Experience">Expereince</a>
+        <a href="About-me">About Me</a>
+      </div>
+    </div>
+   <!-- <a href="projects.html" class="tab">Projects</a>
+    <a href="experience.html" class="tab">Experience</a>
+    <a href="about.html" class="tab">About Me</a> -->
+    <div class="picture"></div> 
 </div>
     
  <script src="{{ url_for('static', filename='js/socials.js') }}"></script> 
@@ -29,11 +40,7 @@
             © 2025 | Liam Buckman
           </div>
     </div>
-    <div class="footer-container">
-      <a href="/projects" class="footer-link"></a>
-      <a href="/experience" class="footer-link"></a>
-      <a href="/about" class="footer-link"></a>
-    </div>
+   
   </footer>
 
 
