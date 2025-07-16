@@ -369,6 +369,7 @@ html{
   animation: fadeIn 2.5s ease-out forwards;
   animation-delay: 1s;
   opacity: 0;
+  font-size: 1.5vw;
 }
 
 .dropdown button {
@@ -381,6 +382,7 @@ html{
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
+  font-size: 2vw;
   letter-spacing: 1px;
   transition: all 0.3s ease;
   position: relative;
@@ -416,7 +418,7 @@ html{
   display: block;
   color: white;
   text-decoration: none;
-  padding: 1.5vh 3vw;
+  padding: 2vh 3vw;
   background-color: rgba(54, 53, 53, 0.7);
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
